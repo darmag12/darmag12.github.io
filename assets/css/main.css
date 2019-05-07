@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	
 }
 
 ol, ul {
@@ -1314,7 +1315,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background-image: url("images/overlay.png"), url("images/codes-coding-hacker-97077.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
@@ -1335,7 +1336,8 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
-		color: #777777;
+		color: white;
+		font-family: 'Monoton', cursive;
 		font-size: 20pt;
 		line-height: 1.75em;
 	}
@@ -1374,22 +1376,28 @@ input, select, textarea {
 
 	strong, b, h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #363636;
+		color: white;
+		
 	}
 
 	h1 {
-		font-size: 2.4em;
+		font-size: 2.5em;
 		letter-spacing: -0.015em;
+		font-family: 'Akronim', cursive;
+		font-weight: bold;
+		padding: .5em;
 	}
 
 	h2 {
 		font-size: 1.8em;
 		letter-spacing: -0.015em;
+		font-family: 'Akronim', cursive;
 	}
 
 	h3, h4, h5, h6 {
 		font-size: 1.25em;
 		letter-spacing: -0.015em;
+		font-family: 'Akronim', cursive;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -1485,7 +1493,8 @@ input, select, textarea {
 	form textarea {
 		-webkit-appearance: none;
 		border: 0;
-		background: #f4f4f4;
+		background: lavender;
+		color: black;
 		padding: 0.75em;
 		width: 100%;
 		-moz-transition: background-color .25s ease-in-out;
@@ -1499,7 +1508,7 @@ input, select, textarea {
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			background: #f8f8f8;
+			background: lavender;
 		}
 
 	form input[type="text"],
@@ -1541,7 +1550,8 @@ input, select, textarea {
 
 		header > p {
 			margin: 0.5em 0 0 0;
-			color: #aaa;
+			color: whitesmoke;
+			font-family: 'Fjalla One', sans-serif;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1602,7 +1612,7 @@ input, select, textarea {
 		transition: background-color .25s ease-in-out;
 		-webkit-appearance: none;
 		display: inline-block;
-		background-color: #222222;
+		background-color: #FF42F3;
 		color: #ffffff;
 		border: 0;
 		cursor: pointer;
@@ -1615,7 +1625,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #333333;
+			background-color: indigo;
+			transform: translatey(5px);
 		}
 
 		input[type="button"]:active,
@@ -1623,7 +1634,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #444444;
+			background-color: indigo;
 		}
 
 		input[type="button"].alt,
@@ -1631,7 +1642,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background-color: #777777;
+			background-color: #FF42F3;
 		}
 
 			input[type="button"].alt:hover,
@@ -1639,7 +1650,8 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background-color: #888888;
+				background-color: indigo;
+
 			}
 
 			input[type="button"].alt:active,
@@ -1647,7 +1659,7 @@ input, select, textarea {
 			input[type="reset"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background-color: #999999;
+				background-color: indigo;
 			}
 
 		input[type="button"].small,
@@ -1769,7 +1781,7 @@ input, select, textarea {
 		#nav a {
 			position: relative;
 			display: inline-block;
-			color: #ffffff;
+			color: #FF42F3;
 			width: 1em;
 			height: 1em;
 			line-height: 0.9em;
@@ -1798,7 +1810,7 @@ input, select, textarea {
 				left: 50%;
 				bottom: -0.75em;
 				margin-left: -0.5em;
-				border-bottom: solid 0em #ffffff;
+				border-bottom: solid 0em #390036;
 				border-left: solid 0.5em transparent;
 				border-right: solid 0.5em transparent;
 				-moz-transition: border-bottom-width .25s ease-in-out;
@@ -1810,10 +1822,11 @@ input, select, textarea {
 			#nav a span {
 				display: block;
 				position: absolute;
-				background: #222222;
-				color: #ffffff;
+				background: #FF42F3;
+				color: white;
 				top: -2.75em;
 				font-size: 0.3em;
+				font-family: 'Akronim', cursive;
 				height: 2.25em;
 				line-height: 2.25em;
 				left: 50%;
@@ -1833,17 +1846,19 @@ input, select, textarea {
 					bottom: -0.4em;
 					left: 50%;
 					margin-left: -0.6em;
-					border-top: solid 0.6em #222222;
+					border-top: solid 0.6em white;
 					border-left: solid 0.6em transparent;
 					border-right: solid 0.6em transparent;
 				}
 
 			#nav a:hover {
 				opacity: 1.0;
+				
 			}
 
 				#nav a:hover span {
 					opacity: 1.0;
+					
 				}
 
 			#nav a.active {
@@ -1938,7 +1953,7 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		width: 100%;
-		background: #ffffff;
+		background: #390036;
 		box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
 		-moz-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 		-webkit-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
@@ -2038,9 +2053,8 @@ input, select, textarea {
 						margin-top: -1.375em;
 						width: 2.75em;
 						height: 2.75em;
-						background: #000;
-						background: rgba(0, 0, 0, 0.75);
-						color: #ffffff;
+						background: #390036;
+						color: white;
 						text-align: center;
 						line-height: 2.75em;
 						font-size: 1.5em;
@@ -2065,6 +2079,7 @@ input, select, textarea {
 					#main > .panel.intro .pic:hover .arrow {
 						width: 3em;
 						padding-right: 0.25em;
+						color: #FF42F3;
 					}
 
 				#main > .panel.intro header {
