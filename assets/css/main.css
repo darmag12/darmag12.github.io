@@ -1337,9 +1337,12 @@ input, select, textarea {
 		
 		font-weight: 300;
 		color: white;
-		font-family: 'Monoton', cursive;
+		/*font-family: 'Monoton', cursive; */
 		font-size: 20pt;
 		line-height: 1.75em;
+	}
+	textarea, select{
+		font-family: 'Monoton', cursive;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -1362,7 +1365,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 13pt;
-				font-family: 'Oxygen', sans-serif;
+				
 			}
 
 		}
@@ -1371,7 +1374,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 12pt;
-				font-family: 'Oxygen', sans-serif;
+				;
 			}
 
 		}
@@ -1399,7 +1402,7 @@ input, select, textarea {
 	h3, h4, h5, h6 {
 		font-size: 1.25em;
 		letter-spacing: -0.015em;
-		font-family: 'Oxygen', sans-serif;
+		
 	}
 
 	@media screen and (max-width: 736px) {
